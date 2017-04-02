@@ -761,45 +761,7 @@ header.intro-header {
 }
 
 .marco-navbar .container {
-  padding-top: 1.50rem;
-}
-
-#about-page .marco-navbar .container {
-  padding-top: 1rem;
-}
-
-#about-page .marco-navbar .marco-left-half {
-  width: 40%;
-}
-
-#about-page .marco-navbar .marco-right-half {
-  width: 40%;
-}
-
-#contact-page .marco-navbar .container {
-  padding-top: 1rem;
-}
-
-#contact-page .marco-navbar .marco-left-half {
-  width: 40%;
-}
-
-#contact-page .marco-navbar .marco-right-half {
-  width: 40%;
-}
-
-
-#account-verified-page .marco-navbar .container, #locations-page .marco-navbar .container, #privacy-page .marco-navbar .container, #reset-password-page .marco-navbar .container, #terms-pager .marco-navbar .container {
-  padding-top: 1rem;
-}
-
-#account-verified-page .marco-navbar .marco-left-half, #locations-page .marco-navbar .marco-left-half, #privacy-page .marco-navbar .marco-left-half,
-#reset-password-page .marco-navbar .marco-left-half, #terms-page .marco-navbar .marco-left-half {
-  width: 40%;
-}
-
-#account-verified-page .marco-navbar .container, #locations-page .marco-navbar .container, #privacy-page .marco-navbar .container, #reset-password-page  .marco-navbar .container, #terms-page .marco-navbar .marco-right-half {
-  padding-top: 1rem;
+  padding-top: 1.25rem;
 }
 
 /*-- LANDING --*/
@@ -854,6 +816,16 @@ section {
   display: block;
 }
 @media (min-width: 768px) {
+  
+  /*#landing {*/
+  /*  height: 100vh;*/
+  /*  min-height: 100%;*/
+  /*  background: #000000 url(../assets/videostill-xlg.png) center center;*/
+  /*  background-size: cover;*/
+  /*  -webkit-background-size: cover;*/
+  /*  text-align: center;*/
+  /*}*/
+  
 	#landing img {
 		margin-bottom: 15px;
 	}
@@ -909,8 +881,10 @@ section {
 }
 
 a.navbar-brand span img {
-    margin-left: 30px;
-    padding-bottom: 5px;
+    margin-left: 35px;
+    max-height: 45px!important;
+    padding-bottom: 7px!important;
+    margin-right: 10px;
 }
 
 input#mce-EMAIL {
@@ -932,5 +906,9 @@ input#mce-EMAIL {
     color: #fff;
     letter-spacing: 1px;
     border-radius: 2px;
+}
+
+form .row {
+    margin: 2rem auto;
 }
 

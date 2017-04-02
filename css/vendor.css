@@ -57,26 +57,26 @@
   font-size: 5.15rem;
 }
 
-.navbar {
-  margin: 0rem;
-  padding: 0rem;
-}
+/*.navbar {*/
+/*  margin: 0rem;*/
+/*  padding: 0rem;*/
+/*}*/
 
-nav img {
-  margin-top: 0;
-}
+/*nav img {*/
+/*  margin-top: 0;*/
+/*}*/
 
-.navbar>.container {
-  margin-top: 15px;
-  margin-bottom: 0px;
-  height: 55px;
-}
+/*.navbar>.container {*/
+/*  margin-top: 15px;*/
+/*  margin-bottom: 0px;*/
+/*  height: 55px;*/
+/*}*/
 
-.navbar>.container .navbar-brand {
-  margin-left: 30px;
-  width: 70%;
-  margin-top: 3px;
-}
+/*.navbar>.container .navbar-brand {*/
+/*  margin-left: 30px;*/
+/*  width: 70%;*/
+/*  margin-top: 3px;*/
+/*}*/
 
 .navbar-right {
   margin: 0;
@@ -92,7 +92,7 @@ nav img {
 }
 
 .navbar-default {
-  background-color: white;
+  /*background-color: white;*/
   border-bottom: none;
 }
 

@@ -95,6 +95,11 @@
      margin-right: 0rem!important;
      margin-left: 0rem!important;
    }
+   
+   #home section.join .section-content {
+       margin-left: 0!important;
+   }
+   
    .section-content p {
      padding: 0rem 4rem;
      font-size: 1.75rem;
