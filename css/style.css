@@ -44,11 +44,15 @@ body.container-fluid#reset-password-page,
   letter-spacing: 2px;
 }
 
-#home .section-content a.btn {
+#home .section-content a.btn, input#mc-embedded-subscribe {
   margin-top: 1rem;
   padding: 1.25rem 2rem;
   font-size: 1.5rem;
   letter-spacing: 1px;
+}
+
+input#mc-embedded-subscribe {
+    width: auto;
 }
 
 #about-page .container-fluid .staff>div {
@@ -432,7 +436,7 @@ footer .row {
 /*********	buttons			***********/
 
 a.btn,
-button.btn {
+button.btn, input#mc-embedded-subscribe {
   color: white;
   background-color: transparent;
   border: 1px solid white!important;
@@ -460,9 +464,11 @@ button.btn:hover {
 
 .join a.btn:hover,
 .discover a.btn:hover,
-button.btn:hover {
+button.btn:hover, input#mc-embedded-subscribe:hover {
   color: #e67c7c;
 }
+
+input#mc-embedded-subscribe:hover { background-color: white; }
 
 .reserve a.btn:hover {
   color: #3aa19b;
@@ -906,4 +912,25 @@ a.navbar-brand span img {
     margin-left: 30px;
     padding-bottom: 5px;
 }
+
+input#mce-EMAIL {
+    width: 100%;
+    padding: 1.5rem 0rem 1.5rem 1rem;
+    border-radius: 2px;
+    border-width: 1px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
 }
+
+#mc_embed_signup div.mce_inline_error {
+    width: 98.5%;
+    margin: 0 0 1em 0;
+    padding: 10px;
+    background-color: #6B0505;
+    font-weight: normal;
+    z-index: 1;
+    color: #fff;
+    letter-spacing: 1px;
+    border-radius: 2px;
+}
+
