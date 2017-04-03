@@ -766,7 +766,7 @@ header.intro-header {
 
 /*-- LANDING --*/
 
-section {
+#home section {
 	width: 100vw;
 }
 #landing {
