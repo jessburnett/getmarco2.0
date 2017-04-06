@@ -36,7 +36,7 @@
    }
    #vendor-signup .intro-header .img-wrapper .text {
      padding-top: 2rem!important;
-     font-size: 3.5rem!important;
+     font-size: 36px!important;
    }
    #vendor-signup main.container-fluid .row:first-of-type p:first-of-type {
      width: 70%!important;
@@ -1080,8 +1080,16 @@
    #vendor-contact .intro-header .img-wrapper .text,
    .signup-confirm .intro-header {
      padding-top: 1rem!important;
-     font-size: 3.5rem!important;
+     font-size: 2.5rem!important;
    }
+   #vendor-home .text-wrapper h1 {
+      font-size: 3rem!important;
+  }
+ 
+    #vendor-home .text-wrapper > div > p {
+        font-size: 1.5rem!important;
+     }
+   
    #vendor-signup .intro-header,
    #vendor-contact .intro-header,
    .signup-confirm .intro-header {
@@ -1146,6 +1154,11 @@
       text-transform: uppercase;
       letter-spacing: 1px;
   }
+  
+  #vendor-home main .section-content > p {
+    width: 50%;
+    margin: 5rem auto;
+  }    
 }
 
 @media (max-width: 600px){
