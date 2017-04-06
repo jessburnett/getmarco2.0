@@ -808,8 +808,12 @@ header.intro-header {
   cursor: pointer;
 }
 
+/*#landing span.play {*/
+/*  margin: 3rem auto!important;*/
+/*}*/
 #landing span.play {
-  margin: 3rem auto!important;
+    padding-top: 10rem!important;
+    padding-bottom: 5rem!important;
 }
 
 #landing .text>span {
@@ -818,19 +822,22 @@ header.intro-header {
   display: block;
 }
 
-div.text:first-of-type {
-    margin-top: 3rem;
-    margin-bottom: 3rem;
-}
+@media only screen and (max-width: 545px) {
+    #landing .text {
+      font-size: 2rem!important;
+    }
+	}
+
+/*div.text:first-of-type {*/
+/*    margin-top: 3rem;*/
+/*    margin-bottom: 3rem;*/
+/*}*/
 
 #about-page section > p {
   text-indent: 5px
   padding-bottom: 6px!important;
 }
 
-input[type="email"] {
-  color: red!imporant;
-}
 
 #home section.discover {
     margin-top: 7rem;
@@ -915,6 +922,7 @@ input#mce-EMAIL {
     border-width: 1px;
     text-transform: uppercase;
     letter-spacing: 1px;
+    color: #4a4a4a;
 }
 
 #mc_embed_signup div.mce_inline_error {
