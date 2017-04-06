@@ -1158,3 +1158,8 @@
   }
 }
 
+@media (max-width: 768px){
+    #landing .marco {
+        margin: 2rem auto!important;
+    }
+}

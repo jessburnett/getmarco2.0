@@ -802,7 +802,6 @@ header.intro-header {
 }
 
 #landing i {
-  margin: 2rem 0rem;
   padding: 0rem;
   font-size: 8rem;
   vertical-align: middle;
@@ -824,13 +823,17 @@ div.text:first-of-type {
     margin-bottom: 3rem;
 }
 
-.apple > a {
-  margin-top: 3rem;
-}
-
 #about-page section > p {
   text-indent: 5px
   padding-bottom: 6px!important;
+}
+
+input[type="email"] {
+  color: red!imporant;
+}
+
+#home section.discover {
+    margin-top: 7rem;
 }
 				
 @media (min-width: 768px) {
@@ -844,9 +847,9 @@ div.text:first-of-type {
     text-align: center;
   }
   
-	#landing img {
-		margin-bottom: 15px;
-	}
+	/*#landing img {*/
+	/*	margin-bottom: 15px;*/
+	/*}*/
 }
 @keyframes flickerAnimation {
   0%   { opacity:1; }
@@ -867,7 +870,7 @@ div.text:first-of-type {
   margin: inherit;
   width: 100%;
   position: absolute;
-  top: 35%;
+  top: 33%;
   left: 0;
   transform: translateY(-50%);
 }
