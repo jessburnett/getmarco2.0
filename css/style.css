@@ -802,29 +802,47 @@ header.intro-header {
 }
 
 #landing i {
-  margin: 0rem;
+  margin: 2rem 0rem;
   padding: 0rem;
   font-size: 8rem;
   vertical-align: middle;
   cursor: pointer;
 }
 
+#landing span.play {
+  margin: 3rem auto!important;
+}
+
 #landing .text>span {
   width: 100%;
   margin: 0 auto;
-  padding-top: 15px!important;
   display: block;
 }
+
+div.text:first-of-type {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.apple > a {
+  margin-top: 3rem;
+}
+
+#about-page section > p {
+  text-indent: 5px
+  padding-bottom: 6px!important;
+}
+				
 @media (min-width: 768px) {
   
-  /*#landing {*/
-  /*  height: 100vh;*/
-  /*  min-height: 100%;*/
-  /*  background: #000000 url(../assets/videostill-xlg.png) center center;*/
-  /*  background-size: cover;*/
-  /*  -webkit-background-size: cover;*/
-  /*  text-align: center;*/
-  /*}*/
+  #landing {
+    height: 100vh;
+    min-height: 100%;
+    background: #000000 url(../assets/videostill-xlg.png) center center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    text-align: center;
+  }
   
 	#landing img {
 		margin-bottom: 15px;
