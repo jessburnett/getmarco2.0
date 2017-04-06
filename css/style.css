@@ -822,7 +822,7 @@ header.intro-header {
   display: block;
 }
 
-@media only screen and (max-width: 545px) {
+@media only screen and (maxintr-width: 545px) {
     #landing .text {
       font-size: 2rem!important;
     }
@@ -841,6 +841,17 @@ header.intro-header {
 
 #home section.discover {
     margin-top: 7rem;
+}
+
+@media (max-width: 767px){
+  #landing {
+    height: 100vh;
+    min-height: 100%;
+    background:#000000 url(../assets/videostill-md.png) center center;
+    background-size: cover;
+    text-align: center;
+  }
+  
 }
 				
 @media (min-width: 768px) {
