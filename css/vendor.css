@@ -125,12 +125,8 @@
   margin: 0px 45px 0px 0px!important;
 }
 
-div#navbarCollapse.navbar-collapse.collapse.in {
-  background-color: red;
-}
-
 #navbarCollapse {
-    background-color: transparent!important;
+    background-color: white!important;
 }
 
 nav > div.container {
