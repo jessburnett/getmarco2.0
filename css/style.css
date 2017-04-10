@@ -851,22 +851,11 @@ header.intro-header {
       margin: -15px auto;
       display: block;
     }
-	}
-
-/*div.text:first-of-type {*/
-/*    margin-top: 3rem;*/
-/*    margin-bottom: 3rem;*/
-/*}*/
-
-#about-page section > p {
-  text-indent: 5px
-  padding-bottom: 6px!important;
 }
 
-
-/*#home section.discover {*/
-/*    margin-top: 7rem;*/
-/*}*/
+#about-page section > p {
+  font-size: 18px;
+}
 
 @media (max-width: 767px){
   #landing {
@@ -976,10 +965,5 @@ input#mce-EMAIL {
 
 form .row {
     margin: 2rem auto;
-}
-
-#about-page.container-fluid > .container-fluid > section {
-   width: 80%!important;
-   margin: 0 auto!important;
 }
 
