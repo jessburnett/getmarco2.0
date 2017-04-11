@@ -617,7 +617,7 @@ section.row {
 }
 
 #privacy-page main {
-  padding: 2rem;
+  padding: 2rem 6rem;
   text-align: justify;
 }
 
@@ -627,7 +627,7 @@ section.row {
 }
 
 .container-fluid>.container-fluid>section {
-  padding: 2rem;
+  padding: 2rem 6rem;
 }
 
 #privacy-page .address {

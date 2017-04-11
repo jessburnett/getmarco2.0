@@ -1175,4 +1175,12 @@
     #landing .marco {
         margin: 2rem auto!important;
     }
+    
+    #privacy-page main {
+      padding: 1.5rem;
+    }
+
+    .container-fluid>.container-fluid>section {
+      padding: 1.5rem;
+    }
 }
