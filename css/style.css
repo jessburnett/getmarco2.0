@@ -694,6 +694,7 @@ section.row {
 
 .staff .img-responsive {
   margin: 0 auto;
+  max-width: 150px;
 }
 
 img caption {
