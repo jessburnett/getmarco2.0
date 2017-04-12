@@ -1,6 +1,10 @@
  /*Extra Small Devices, Phones */
  
  @media screen and (max-width: 767px) {
+    .navbar-right {
+        font-size: 14px!important;
+    } 
+     
    .navbar-toggle {
       margin-right: 30px;
     }
@@ -213,6 +217,19 @@
  }
  
  @media screen and (min-width: 768px) and (max-width: 991px) {
+    .navbar-right {
+        font-size: 14px!important;
+        margin-right: 5px!important;
+    } 
+    
+    .navbar-header {
+        margin-left: -5px;
+    }
+    
+    .navbar-right a {
+        padding: 1.5rem 1rem!important;
+    }
+     
    #reset-password-page .form-group label {
      margin: 0rem auto 1rem 3rem;
    }
@@ -223,6 +240,11 @@
    form#reset .form-group input {
      float: none;
    }
+   
+   #home .discover {
+       margin-top: 7rem;
+   }
+   
    #home .section-content {
      margin-top: 5rem;
      margin-left: 5rem;
@@ -1172,6 +1194,10 @@
 }
 
 @media (max-width: 768px){
+    #home .discover {
+        margin-top: 7rem;
+    }
+    
     #landing .marco {
         margin: 2rem auto!important;
     }
